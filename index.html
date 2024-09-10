@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="src/style.css" />
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+        <title>AI Recipe Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>AI Recipe Generator</h1>
+            </header>
+
+            <main>
+                <div class="form-box">
+                    <form id="generator-form">
+                        <input
+                            type="text"
+                            placeholder="Enter an ingredient"
+                            autofocus
+                            required
+                            autocomplete="off"
+                            class="instructions"
+                            id="user-instructions"
+                        />
+                        <input type="submit" class="submit-button" />
+                    </form>
+                </div>
+                <div>
+                    <small class="example"
+                        >e.g. chicken, cheese, tomato etc or insert an
+                        emoji</small
+                    >
+                </div>
+                <div class="recipe hidden" id="recipe"></div>
+            </main>
+            <br />
+            <br />
+            <hr />
+            <br />
+            <footer>
+                This project was coded by
+                <a href="https://github.com/Stace113" target="_blank"
+                    ><strong>Stace Watkins</strong></a
+                >. It is
+                <a
+                    href="https://github.com/Stace113/AI-Generator"
+                    target="_blank"
+                    ><strong>open-sourced on GitHub</strong></a
+                >, and is
+                <a href="https://sw-ai-generator.netlify.app/" target="_blank"
+                    ><strong>hosted on Netlify</strong></a
+                >
+            </footer>
+        </div>
+    </body>
+    <script src="src/index.js"></script>
+</html>
