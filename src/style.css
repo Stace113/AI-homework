@@ -1,7 +1,5 @@
 body {
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/877/original/Comp-Sci.jpg?1725969122);
-    background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/930/original/360_F_551933523_nBWNQeC6vA8sDE6DDDQeo3YmSRQnlOjN.jpg?1725996686);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -12,9 +10,10 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
-    background-color: rgba(3, 78, 131, 0.478);
-    color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgba(255, 255, 255, 0.716);
+    color: rgb(96, 62, 38);
     text-align: center;
     padding: 50px 60px 25px 60px;
     border-radius: 20px;
@@ -39,16 +38,16 @@ form {
     display: block;
     display: flex;
     justify-content: left;
-    margin-left: 15%;
+    margin-left: 8%;
     font-style: italic;
     font-size: 12px;
-    color: rgb(236, 233, 233);
+    color: rgb(96, 62, 38);
 }
 
 .instructions {
     padding: 10px;
     margin: 10px 5px 10px 10px;
-    width: 50%;
+    width: 60%;
     font-size: 14px;
     border-radius: 20px;
     line-height: 1.5;
@@ -56,21 +55,24 @@ form {
 }
 
 .submit-button {
-    background-color: rgb(226, 226, 230);
+    background-color: rgb(96, 62, 38);
     border: none;
     margin: 10px 10px 10px 5px;
     padding: 0 20px 0 20px;
     border-radius: 20px;
     font-weight: bold;
     width: 100px;
+    color: white;
 }
 
 .recipe {
     font-size: 16px;
     margin: 10px;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     line-height: 2;
+    color: black;
 }
 
 .hidden {
